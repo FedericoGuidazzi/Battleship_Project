@@ -1,0 +1,2 @@
+javac -cp ~/Documents/università/agentiIntelligenti/Jade/lib/jade.jar:. -d classes ./src/main/java/org/example/RefereeAgent.java ./src/main/java/org/example/PlayerAgent.java ./src/main/java/org/example/Pair.java
+java -cp ~/Documents/università/agentiIntelligenti/Jade/lib/jade.jar:classes jade.Boot -gui -agents "arbitro:org.example.RefereeAgent;giocatore1:org.example.PlayerAgent;giocatore2:org.example.PlayerAgent"
